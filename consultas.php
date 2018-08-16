@@ -7,9 +7,10 @@
 			<thead>
 				<tr>
 					<th>Nome</th>
-					<th>CPF</th>
+					<!-- <th>CPF</th> -->
 					<th>Email</th>
 					<th>Telefone</th>
+					<th>Timestamp</th>
 				</tr>
 			</thead>
 			<tbody>

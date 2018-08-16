@@ -24,15 +24,15 @@ session_start()
     <!-- CAMPO NOME -->  
       <div class ="input-field col s12">
         <i class="material-icons prefix">account_circle</i>
-        <input type="text" name="nome" id="nome" maxlength="40" required autofocus>
+        <input type="text" name="nome" id="nome" maxlength="40"  autofocus>
         <label for ="nome">Nome do Cliente</label>
       </div>
 
     <!-- CAMPO CPF -->  
-      <div class ="input-field col s12">
+     <!--  <div class ="input-field col s12">
         <i class="material-icons prefix">account</i>
         <input type="text" name="cpf" id="cpf" maxlength="40" >
-        <label for ="cpf">CPF</label>
+        <label for ="cpf">CPF</label> -->
 
     <!-- CAMPO E-MAIL -->  
       <div class ="input-field col s12">

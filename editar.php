@@ -9,15 +9,16 @@
 
 
 <?php 
-	// include_once 'banco_de_dados/conexao.php';
-	// $id = filter_input(INPUT_GET,'id', FILTER_SANITIZE_NUMBER_INT);
-	// $querySelect = $link->query("select * from tb_clientes where id='$id'");
+	include_once 'banco_de_dados/conexao.php';
+	$id = filter_input(INPUT_GET,'id', FILTER_SANITIZE_NUMBER_INT);
+	$querySelect = $link->query("select * from tb_clientes where id='$id'");
 
-	// while($registros = $querySelect->fetch_assoc()):
-	// 	$id = $registros['id'];
-	// 	$nome = $registros['nome'];
-	// 	$telefone = $registros['telefone'];
-	// endwhile
+	while($registros = $querySelect->fetch_assoc()):
+		$id = $registros['id'];
+		$nome = $registros['nome'];
+		$email = $registros['email'];
+		$telefone = $registros['telefone'];
+	endwhile
 ?>
 
 <div class="row container">
@@ -35,10 +36,10 @@
 	      </div>
 
 	    <!-- CAMPO CPF -->  
-	      <div class ="input-field col s12">
+	      <!-- <div class ="input-field col s12">
 	        <i class="material-icons prefix">account_circle</i>
 	        <input type="text" name="cpf" id="cpf"  value="<?php echo $cpf?>" maxlength="40" >
-	        <label for ="cpf">CPF</label>
+	        <label for ="cpf">CPF</label> -->
 
 	    <!-- CAMPO E-MAIL -->  
 	      <div class ="input-field col s12">
