@@ -6,18 +6,19 @@
 
 <!-- INIÍCIO DO CAMPO DE BUSCA -->	
 
-		<!-- <p>
+		<!-- <p><form action="<?php?>">
 			<div class ="input-field col s12">
-		        <i class="material-icons prefix">phone</i>
-		        <input type="text" name="busca" id="busca" maxlength="40" >
-		        <label for ="busca">Busca</label>
-	      	</div>
+		        <i class="material-icons prefix">search</i>		        
+			        <input type="text" name="parametro" id="busca"/><label for ="busca">Busca</label>
+			        <input type="submit" value="Buscar" class="btn blue">
+	      	</div></form>
 		</p> -->
 		
 <!-- INÍCIO DA TABELA COM OS RESULTADOS -->
-		<table class="striped">
+		<table class="striped" id="busca">
 			<thead>
 				<tr>
+					<th>Fotos</th>
 					<th>Nome</th>
 					<!-- <th>CPF</th> -->
 					<th>Email</th>

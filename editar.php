@@ -29,8 +29,10 @@ include_once 'includes/menu.inc.php';
   <p>&nbsp;</p>
   <form action="banco_de_dados/update.php" method="post" class="col s12">
     <fieldset class="formulario" style="padding: 15px">
-      <legend><img src="imgs/avatar.png" alt="(imagem)" width="100"></legend>
-      <h5 class="light center">Alteração</h5>
+      <legend><img src="imgs/avatar.png" alt="(imagem)" width="100">
+	  <h5 class="light center container">Alteração</h5>
+      </legend>
+      
 
       <?php
         if(isset($_SESSION['msg'])):
