@@ -3,6 +3,18 @@
 <div class="row container">
 	<div class="col s12">
 		<h5 class="light">Consultas</h5><hr>
+
+<!-- INIÍCIO DO CAMPO DE BUSCA -->	
+
+		<!-- <p>
+			<div class ="input-field col s12">
+		        <i class="material-icons prefix">phone</i>
+		        <input type="text" name="busca" id="busca" maxlength="40" >
+		        <label for ="busca">Busca</label>
+	      	</div>
+		</p> -->
+		
+<!-- INÍCIO DA TABELA COM OS RESULTADOS -->
 		<table class="striped">
 			<thead>
 				<tr>
@@ -10,7 +22,7 @@
 					<!-- <th>CPF</th> -->
 					<th>Email</th>
 					<th>Telefone</th>
-					<th>Timestamp</th>
+					<th>Última Alteração</th>
 				</tr>
 			</thead>
 			<tbody>

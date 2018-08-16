@@ -21,8 +21,8 @@ while($registros = $querySelect->fetch_assoc()):
 		<i class='material-icons'>edit</i>
 	</td>
 	<td>
-		<a href='banco_de_dados/update.php?id=$id'>
-		<i class='material-icons'>delete</i>
+		<a href='banco_de_dados/delete.php?id=$id'>
+		<i class='material-icons'>delete</i></a>
 	</td>";
 	echo "</tr>";
 endwhile;

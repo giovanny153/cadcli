@@ -24,7 +24,7 @@ if(in_array($email, $array_emails)):
 	$_SESSION['msg'] = "<p class='center red-text'>".'Já existe um cliente cadastrado com esse email'."</p>";
 	header ("Location:../");
 else:
-	$queryInsert = $link->query("insert into tb_clientes values (default,'$nome','$telefone','$email',default)");
+	$queryInsert = $link->query("insert into tb_clientes values (default,'$nome','$email','$telefone', default)");
 	$affected_rows = mysqli_affected_rows($link);
 
 	if($affected_rows > 0):

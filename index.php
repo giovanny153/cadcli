@@ -50,8 +50,8 @@ session_start()
 
       <!-- BOTÕES -->
       <div class="input-field col s12">
-        <input type="submit" name="Cadastrar" class="btn blue">
-        <input type="submit" name="Limpar" class="btn red">
+        <input type="submit" value="Cadastrar" class="btn blue">
+        <input type="submit" value="Limpar" class="btn red">
       </div>
 
 
