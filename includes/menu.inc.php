@@ -4,7 +4,7 @@
           <div class ="brand-logo light"> Cad Cli</div>
           <ul class="right">
             <li><a href="index.php"><i class="material-icons left">account_box</i>Cadastro</a></li>
-            <li><a href="consultas.php"><i class="material-icons left">find_in_page</i>Consultas</a></li>
+            <li><a href="cli_consultas.php"><i class="material-icons left">find_in_page</i>Consultas</a></li>
             <!-- <li><a href="suporte.php"><i class="material-icons left">account_box</i>Suportes</a></li>
             <li><a href="consult.php"><i class="material-icons left">find_in_page</i>Consult Sup</a></li> -->
             <!-- <li><a href=""><i class="material-icons left">monetization_on</i>Financeiro</a></li>

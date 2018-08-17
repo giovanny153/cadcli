@@ -11,5 +11,5 @@ $queryUpdate = $link->query("update tb_clientes set nome='$nome', email='$email'
 $affected_rows = mysqli_affected_rows ($link);
 
 if($affected_rows > 0):
-	header("Location:../consultas.php");
+	header("Location:../cli_consultas.php");
 endif;

@@ -12,7 +12,6 @@ while($registros = $querySelect->fetch_assoc()):
 
 	echo "<tr>";
 	echo "
-	<td>$foto</td>
 	<td>$nome</td>
 	<td>$email</td>
 	<td>$telefone</td>

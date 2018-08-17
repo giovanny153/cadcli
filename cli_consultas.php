@@ -18,9 +18,7 @@
 		<table class="striped" id="busca">
 			<thead>
 				<tr>
-					<th>Fotos</th>
 					<th>Nome</th>
-					<!-- <th>CPF</th> -->
 					<th>Email</th>
 					<th>Telefone</th>
 					<th>Última Alteração</th>

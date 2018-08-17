@@ -71,7 +71,7 @@ include_once 'includes/menu.inc.php';
 	      <!-- BOTÕES -->
 	      <div class="input-field col s12">
 	        <input type="submit" value="Alterar" class="btn blue">
-	        <a href="consultas.php" class="btn red">Cancelar</a>        
+	        <a href="cli_consultas.php" class="btn red">Cancelar</a>        
 	      </div>
     </fieldset>
   </form>
