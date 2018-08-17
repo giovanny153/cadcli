@@ -20,36 +20,36 @@ session_start()
         endif
       ?>
 
-
+ 
     <!-- CAMPO NOME -->  
       <div class ="input-field col s12">
         <i class="material-icons prefix">money_gram</i>
-        <input type="text" name="nome" id="nome" maxlength="40"  autofocus>
-        <label for ="nome">Valor</label>
+        <input type="text" name="valor" id="valor" maxlength="40"  autofocus>
+        <label for ="valor">Valor</label>
       </div>
 
       <div class ="input-field col s12">
         <i class="material-icons prefix">account_circle</i>
-        <input type="text" name="nome" id="nome" maxlength="40"  autofocus>
-        <label for ="nome">Descrição</label>
+        <input type="text" name="descricao" id="descricao" maxlength="40"  autofocus>
+        <label for ="descricao">Descrição</label>
       </div>
 
       <div class ="input-field col s12">
         <i class="material-icons prefix">date_range</i>
-        <input type="text" name="nome" id="nome" maxlength="40"  autofocus>
-        <label for ="nome">Data</label>
+        <input type="text" name="data" id="data" maxlength="40"  autofocus>
+        <label for ="data">Data</label>
       </div>
 
       <div class ="input-field col s12">
         <i class="material-icons prefix">account_circle</i>
-        <input type="text" name="nome" id="nome" maxlength="40"  autofocus>
-        <label for ="nome">Categoria</label>
+        <input type="text" name="categoria" id="categoria" maxlength="40"  autofocus>
+        <label for ="categoria">Categoria</label>
       </div>
 
       <div class ="input-field col s12">
         <i class="material-icons prefix">credit_card</i>
-        <input type="text" name="nome" id="nome" maxlength="40"  autofocus>
-        <label for ="nome">Conta</label>
+        <input type="text" name="conta" id="conta" maxlength="40"  autofocus>
+        <label for ="conta">Conta</label>
       </div>
 
       <!-- BOTÕES -->
