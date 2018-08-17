@@ -59,4 +59,4 @@ session_start()
   </form>
 </div>
 
-      <?php include_once 'includes/footer.inc.php' ?>
+<?php include_once 'includes/footer.inc.php' ?>
