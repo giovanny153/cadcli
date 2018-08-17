@@ -19,8 +19,8 @@
       </nav>
 
 <ul id="dropdown1" class="dropdown-content">
-  <li><a href="index.php">Cliente</li></a>
-  <li><a href="#!">Fin</a></li>
+  <li><a href="cli_cad.php">Cliente</li></a>
+  <li><a href="fin_cad.php">Fin</a></li>
   <li><a href="#!">Imóvel</a></li>
 </ul>
 
