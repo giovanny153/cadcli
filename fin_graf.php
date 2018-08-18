@@ -8,7 +8,7 @@ session_start()
 
 <div class="row container">
   <p>&nbsp;</p>
-  <form action="banco_de_dados/create.php" method="post" class="col s12">
+  <!-- <form action="banco_de_dados/create.php" method="post" class="col s12"> -->
     <fieldset class="formulario" style="padding: 15px">
       <legend><img src="imgs/graf.jpg" alt="(imagem)" width="100"></legend>
       <h3 class="light center">Gráfico de Pizza</h3>  
@@ -16,7 +16,7 @@ session_start()
     <div id="piechart" align="center" style="width: 900px; height: 500px;"></div>  
 
     </fieldset>
-  </form>
+  <!-- </form> -->
 </div>
 
 <?php include_once 'includes/footer.inc.php' ?>

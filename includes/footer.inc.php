@@ -3,9 +3,9 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-            console.log( "ready!" );
-            $(".dropdown-trigger").dropdown();
-      });
+                console.log( "ready!" );
+                $(".dropdown-trigger").dropdown();
+          });
 
       document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.slider');
@@ -17,6 +17,11 @@
   $(document).ready(function(){
     $('.slider').slider();
   });
+//Dropdown para Select
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+      
        
   </script>
     
