@@ -30,7 +30,7 @@ include_once 'includes/menu.inc.php';
 
 <div class="row container">
   <p>&nbsp;</p>
-  <form action="banco_de_dados/fin_cad_model.php" method="post" class="col s12">
+  <form action="banco_de_dados/fin_update.php" method="post" class="col s12">
     <fieldset class="formulario" style="padding: 15px">
       <legend><img src="imgs/money.png" alt="(imagem)" width="100"></legend>
       <h5 class="light center">Lançamento Financeiro</h5>

@@ -11,7 +11,7 @@ $data 	   = filter_input(INPUT_POST, 'data', 		FILTER_SANITIZE_SPECIAL_CHARS);
 $categoria = filter_input(INPUT_POST, 'categoria',  FILTER_SANITIZE_SPECIAL_CHARS);
 $conta 	   = filter_input(INPUT_POST, 'conta', 		FILTER_SANITIZE_SPECIAL_CHARS);
 
-$queryUpdate = $link->query("update $tb set nome='$nome', email='$email', telefone='$telefone' , DATA=null  where id='$id'");
+$queryUpdate = $link->query("update $tb set valor='$valor', descricao='$descricao', data='$data',categoria='$categoria',conta='$conta', timestamp=null  where id='$id'");
 $affected_rows = mysqli_affected_rows ($link);
 
 if($affected_rows > 0):
