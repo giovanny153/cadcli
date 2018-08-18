@@ -25,7 +25,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<?php include_once 'banco_de_dados/read.php';?>
+				<?php include_once 'banco_de_dados/cli_read.php';?>
 			</tbody>
 
 		</table>

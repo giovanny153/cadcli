@@ -21,7 +21,7 @@ $queryInsert = $link->query("insert into fin_mov values (NULL,'$valor','$descric
 $affected_rows = mysqli_affected_rows($link);
 
 if($affected_rows != 0):
-	$_SESSION ['msg'] ="<p class='center green-text'>".'Cadastro efetuado com sucesso!'."<br>";	
+	$_SESSION ['msg'] ="<p class='center green-text'>".'Lançamento realizado com sucesso!'."<br>";	
 	header ("Location:../fin_cad.php");
 else:
 	$_SESSION ['msg'] ="<p class='center red-text'>".'Deu ruim, Verifique o select!!'."<br>";	

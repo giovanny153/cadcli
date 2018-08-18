@@ -7,7 +7,7 @@ session_start()
 
 <div class="row container">
   <p>&nbsp;</p>
-  <form action="banco_de_dados/create.php" method="post" class="col s12">
+  <form action="banco_de_dados/cli_create.php" method="post" class="col s12">
     <fieldset class="formulario" style="padding: 15px">
       <legend><img src="imgs/avatar.png" alt="(imagem)" width="100"></legend>
       <h5 class="light center">Cadastro de Clientes</h5>

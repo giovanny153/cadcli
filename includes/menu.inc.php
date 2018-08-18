@@ -28,14 +28,14 @@
 
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="cli_consultas.php">Cliente</li></a>
-  <li><a href="fin_consultas">Fin</a></li>
-  <li><a href="imov_consultas">Imóvel</a></li>
+  <li><a href="fin_consultas.php">Fin</a></li>
+  <li><a href="imov_consultas.php">Imóvel</a></li>
 </ul>
 
 <ul id="dropdown2" class="dropdown-content">
   <li><a href="cli_consultas.php">Cliente</li></a>
-  <li><a href="fin_consultas">Fin</a></li>
-  <li><a href="imov_consultas">Imóvel</a></li>
+  <li><a href="fin_consultas.php">Fin</a></li>
+  <li><a href="imov_consultas.php">Imóvel</a></li>
 </ul>
 
 <ul id="dropdown3" class="dropdown-content">
