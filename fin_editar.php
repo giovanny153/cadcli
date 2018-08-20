@@ -43,7 +43,7 @@ include_once 'includes/menu.inc.php';
         endif
       ?>
 
- <?php include_once 'includes/fin/fin_editar.inc.php' ?>
+ <?php include_once 'includes/fin_editar.inc.php' ?>
     
 
 <?php include_once 'includes/footer.inc.php' ?>

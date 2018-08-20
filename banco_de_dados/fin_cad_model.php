@@ -20,7 +20,7 @@ $conta 	   = filter_input(INPUT_POST, 'conta', 		FILTER_SANITIZE_SPECIAL_CHARS);
 $queryInsert = $link->query("insert into fin_mov values (NULL,'$valor','$descricao','$data', '$categoria','$conta',NULL)");
 $affected_rows = mysqli_affected_rows($link);
 
-if($affected_rows != 0):
+if($affected_rows > 0):
 	$_SESSION ['msg'] ="<p class='center green-text'>".'Lançamento realizado com sucesso!'."<br>";	
 	header ("Location:../fin_cad.php");
 else:
