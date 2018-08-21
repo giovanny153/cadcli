@@ -17,7 +17,7 @@ $conta 	   = filter_input(INPUT_POST, 'conta', 		FILTER_SANITIZE_SPECIAL_CHARS);
 // $conta 	   = 'conta';
 
 
-$queryInsert = $link->query("insert into fin_mov values (NULL,'$valor','$descricao','$data', '$categoria','$conta',NULL)");
+$queryInsert = $link->query("insert into fin_mov values (NULL,'$valor','$descricao','$data','$categoria','$conta',NULL)");
 $affected_rows = mysqli_affected_rows($link);
 
 if($affected_rows > 0):

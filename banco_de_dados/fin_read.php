@@ -16,9 +16,9 @@ while($registros = $querySelect->fetch_assoc()):
 
 	echo "<tr>";
 	echo "
+	<td>$data</td>
 	<td>$valor</td>
 	<td>$descricao</td>
-	<td>$data</td>
 	<td>$categoria</td>
 	<td>$conta</td>
 	<td>$timestamp</td>

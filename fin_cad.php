@@ -36,7 +36,7 @@ session_start()
 
       <div class ="input-field col s12">
         <i class="material-icons prefix">date_range</i>
-        <input type="text" name="data" id="data" maxlength="40"  autofocus>
+        <input type="date" name="data" id="data" maxlength="40"  autofocus>
         <label for ="data">Data</label>
       </div>
 

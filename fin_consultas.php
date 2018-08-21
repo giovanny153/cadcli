@@ -2,15 +2,15 @@
 <?php include_once 'includes/menu.inc.php'?>  
 <div class="row container">
 	<div class="col s12">
-		<h5 class="light">Consultas</h5><hr>
+		<h5 class="light">Financeiro</h5><hr>
 
 <!-- INÍCIO DA TABELA COM OS RESULTADOS -->
 		<table class="striped" id="busca">
 			<thead>
 				<tr>
+					<th>Data</th>
 					<th>Valor</th>
 					<th>Descricao</th>
-					<th>Data</th>
 					<th>Categoria</th>
 					<th>Conta</th>
 					<th>Timestamp</th>

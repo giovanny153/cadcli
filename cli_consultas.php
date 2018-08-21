@@ -2,7 +2,7 @@
 <?php include_once 'includes/menu.inc.php'?>  
 <div class="row container">
 	<div class="col s12">
-		<h5 class="light">Consultas</h5><hr>
+		<h5 class="light">Clientes</h5><hr>
 
 <!-- INIÍCIO DO CAMPO DE BUSCA -->	
 
