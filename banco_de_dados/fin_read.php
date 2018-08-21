@@ -17,7 +17,7 @@ while($registros = $querySelect->fetch_assoc()):
 	echo "<tr>";
 	echo "
 	<td>$data</td>
-	<td>$valor</td>
+	<td>R$ $valor</td>
 	<td>$descricao</td>
 	<td>$categoria</td>
 	<td>$conta</td>
@@ -32,3 +32,5 @@ while($registros = $querySelect->fetch_assoc()):
 	</td>";
 	echo "</tr>";
 endwhile;
+
+// href='banco_de_dados/fin_delete.php?id=$id'
