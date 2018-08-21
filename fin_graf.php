@@ -2,21 +2,38 @@
 session_start()
 ?>
 <?php include_once 'includes/header.inc.php'?>
-<?php include_once 'includes/menu.inc.php'?>  
-<!-- php include_once 'banco_de_dados/graf_model.php'  -->
-<?php 
-echo $categoria;
-echo "";
-echo $tb;
+<?php include_once 'includes/menu.inc.php'?> 
+<?php include_once 'banco_de_dados/conexao.php' ?>
+
+<?php
+$tb = 'fin_mov';
+// $cat     = filter_input(INPUT_POST, 'categoria');
+$cat = 'conta'; 
+$titulo = 'Gráfico de torta colorido!';
+// $_SESSION['cat1'] =filter_input(INPUT_POST, 'categoria');
+echo $cat;
+
+
+//Select no banco
+ $query = "SELECT $cat, count(*) as number FROM $tb GROUP BY $cat";  
+ $result = mysqli_query($link, $query);
 ?>
+
+<!-- <?php $cat = $_SESSION['cat1'];
+$result = $_SESSION['result'];
+// echo $cat1;
+echo $cat;
+echo $_SESSION['cat1'];
+?> -->
+
 <div class="row container">
   <p>&nbsp;</p>  
   <form action="banco_de_dados/graf_model.php" method="POST">
     <fieldset class="formulario" style="padding: 15px">
       <div class="input-field col s6">
         <i class="material-icons prefix">reorder</i>
-        <select name='categoria' id='categoria'>
-          <option value="<?php echo $categoria ?>" disabled selected></option>
+        <select name='categoria' id='categoria' value="<?php echo $cat ?>">
+          <option value="<?php echo $cat ?>" disabled selected></option>
           <option value="conta">Conta</option>
           <option value="categoria">Categoria</option>
         </select>
@@ -71,14 +88,11 @@ function drawChart()
             }  
             ?>  
        ]);  
-  var options = {  
-        // title: '<?php echo $titulo ?>',  
-        is3D:true 
-        // pieHole: 0.4  
-       };  
+  var options = {is3D:true };
+
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));  
   chart.draw(data, options);  
 }  
 </script>
 
-<?php include_once 'includes/footer.inc.php' ?>
+<?php // include_once 'includes/footer.inc.php' ?>
